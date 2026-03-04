@@ -1,9 +1,9 @@
 import { Text, View } from 'react-native';
 
-export default function Albuns() {
+export default function HistoryScreen() {
   return (
     <View>
-      <Text> Carol lixo </Text>
+      <Text>New Post Screen </Text>
     </View>
   )
 }

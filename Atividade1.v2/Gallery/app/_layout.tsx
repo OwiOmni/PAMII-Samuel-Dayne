@@ -17,7 +17,7 @@ export default function RootLayout() {
         ...DefaultTheme,
         colors: {
             ...DefaultTheme.colors,
-            primary: '#991',
+            primary: '#000',
         }
     }
 
