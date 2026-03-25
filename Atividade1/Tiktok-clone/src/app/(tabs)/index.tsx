@@ -1,9 +1,0 @@
-import { Text, View } from 'react-native';
-
-export default function Albuns() {
-  return (
-    <View>
-      <Text> Carol lixo </Text>
-    </View>
-  )
-}
