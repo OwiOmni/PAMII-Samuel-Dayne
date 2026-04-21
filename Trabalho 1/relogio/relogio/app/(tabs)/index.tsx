@@ -40,6 +40,10 @@ const styles = StyleSheet.create({
     color: "#f8a1a8", 
     fontSize: 32,
     fontWeight: "300",
+    position: "absolute",
+    left: 0,
+    right: 0,
+    textAlign:"center",
   },
 
   actions: {
