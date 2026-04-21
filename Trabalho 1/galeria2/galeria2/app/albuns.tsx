@@ -5,23 +5,23 @@ export default function Albuns() {
     return (
         <View style={styles.container}>
 
-        {/* TÍTULO */}
+
         <Text style={styles.title}>Álbuns</Text>
 
-        {/* ÍCONES */}
+ 
         <View style={styles.icons}>
             <Entypo name="plus" size={24} color="#f5a3ad" />
             <Entypo name="magnifying-glass" size={24} color="#f5a3ad" />
             <Entypo name="dots-three-vertical" size={24} color="#f5a3ad" />
         </View>
 
-        {/* SEÇÃO */}
+
         <View style={styles.sectionHeader}>
             <Text style={styles.sectionTitle}>Álbuns essenciais</Text>
             <Text style={styles.seeAll}>Ver tudo</Text>
         </View>
 
-        {/* GRID */}
+
         <View style={styles.grid}>
 
             {[
@@ -57,7 +57,6 @@ export default function Albuns() {
         backgroundColor: '#000',
     },
 
-    // 🔥 TÍTULO IGUAL AO "FOTOS"
     title: {
         position: 'absolute',
         top: 130,
@@ -67,7 +66,6 @@ export default function Albuns() {
         fontWeight: '300',
     },
 
-    // 🔥 ÍCONES IGUAL AO OUTRO
     icons: {
         position: 'absolute',
         right: 20,
@@ -76,9 +74,8 @@ export default function Albuns() {
         gap: 22,
     },
 
-    // 🔥 CABEÇALHO DA SEÇÃO
     sectionHeader: {
-        marginTop: 330, // 🔥 mesma distância visual da imagem
+        marginTop: 330, 
         flexDirection: 'row',
         justifyContent: 'space-between',
         paddingHorizontal: 15,
@@ -92,10 +89,9 @@ export default function Albuns() {
 
     seeAll: {
         color: '#f5a3ad',
-        fontSize: 14, // 🔥 menor
+        fontSize: 14, 
     },
 
-    // 🔥 GRID
     grid: {
         flexDirection: 'row',
         flexWrap: 'wrap',
@@ -112,7 +108,7 @@ export default function Albuns() {
     image: {
         width: '100%',
         aspectRatio: 1,
-        borderRadius: 20, // 🔥 quadrado arredondado
+        borderRadius: 20, 
         backgroundColor: '#222',
     },
 

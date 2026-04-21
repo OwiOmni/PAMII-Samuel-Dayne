@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function Albums() {
     return (
         <View style={styles.container}>
-        <Text style={styles.title}>Jão Siles Lindão ❤️</Text>
+        <Text style={styles.title}>João Siles Lindão ❤️</Text>
         </View>
     );
     }

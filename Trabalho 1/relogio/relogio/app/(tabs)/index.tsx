@@ -5,7 +5,6 @@ export default function Alarme() {
   return (
     <View style={styles.container}>
 
-      {/* HEADER */}
       <View style={styles.header}>
         <Text style={styles.title}>Alarme</Text>
 
@@ -15,7 +14,6 @@ export default function Alarme() {
         </View>
       </View>
 
-      {/* CONTEÚDO CENTRAL */}
       <View style={styles.content}>
         <Text style={styles.empty}>Nenhum alarme</Text>
       </View>
@@ -30,9 +28,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#000",
   },
 
-  /* HEADER */
   header: {
-    marginTop: 80, // espaço do topo (status bar)
+    marginTop: 80, 
     paddingHorizontal: 20,
     flexDirection: "row",
     justifyContent: "space-between",
@@ -40,7 +37,7 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    color: "#f8a1a8", // cor mais suave igual ao print
+    color: "#f8a1a8", 
     fontSize: 32,
     fontWeight: "300",
   },
@@ -48,7 +45,7 @@ const styles = StyleSheet.create({
   actions: {
     flexDirection: "row",
     alignItems: "center",
-    gap: 15, // espaçamento entre + e ⋮
+    gap: 15, 
   },
 
   plus: {

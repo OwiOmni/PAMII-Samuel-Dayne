@@ -5,10 +5,8 @@ export default function RelogioMundial() {
   return (
     <View style={styles.container}>
 
-      {/* TOPO */}
       <View style={styles.topArea}>
 
-        {/* Hora */}
         <View style={styles.timeContainer}>
           <Text style={styles.time}>16:37:03</Text>
           <Text style={styles.zone}>
@@ -16,7 +14,6 @@ export default function RelogioMundial() {
           </Text>
         </View>
 
-        {/* Botões */}
         <View style={styles.actions}>
           <Text style={styles.plus}>+</Text>
           <Text style={styles.menu}>⋮</Text>
@@ -24,7 +21,6 @@ export default function RelogioMundial() {
 
       </View>
 
-      {/* CENTRO */}
       <View style={styles.content}>
         <Text style={styles.empty}>
           Nenhuma cidade
@@ -54,7 +50,7 @@ const styles = StyleSheet.create({
 
   time: {
     color: "#f5a5ad",
-    fontSize: 44, // 👈 AJUSTADO AQUI
+    fontSize: 44, 
     fontWeight: "300",
   },
 
@@ -82,7 +78,6 @@ const styles = StyleSheet.create({
     fontSize: 28,
   },
 
-  /* CENTRO */
   content: {
     flex: 1,
     justifyContent: "center",

@@ -5,13 +5,10 @@ export default function Cronometro() {
   return (
     <View style={styles.container}>
 
-      {/* 3 pontinhos */}
       <Text style={styles.menu}>⋮</Text>
 
-      {/* Tempo */}
       <Text style={styles.time}>00:00.00</Text>
 
-      {/* Botões */}
       <View style={styles.buttons}>
 
         <View style={styles.buttonLeft}>
@@ -52,7 +49,7 @@ const styles = StyleSheet.create({
 
   buttons: {
     position: "absolute",
-    bottom: 70, // 👈 DESCEU AQUI
+    bottom: 70, 
     flexDirection: "row",
     width: "90%",
     justifyContent: "center",
